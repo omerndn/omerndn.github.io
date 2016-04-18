@@ -1,0 +1,279 @@
+/*
+ * Author: Omer Nadin
+ * 
+ *
+ * 
+ * 
+ * Thanks to Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Minimal - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co */
+
+html, body {
+  background-color: #f2f2f2;
+    font-family: 'EB Garamond', serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    height: 100%;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+	background: #FFFFFF;
+	margin-top: 0px;
+	background-attachment: relative;
+	background-position: center center;
+    height:auto;
+	width: 100%;
+    text-align: center;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.intro {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#headerwrap h1 {
+    font-family: 'Roboto', sans-serif;
+	color: #333;
+	font-size: 50px;
+    padding-top: 10px;
+    letter-spacing: 3px;
+}
+
+.buttonmap {
+    color: #A3CCB6;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #A3CCB6;
+    border-radius: 5px;
+    padding: 0px 5px 2px 10px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 3px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 50px;
+	font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.buttonmap:visited {
+    color: #A3CCB6;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #A3CCB6;
+    text-decoration: none;
+
+}
+
+.buttonmap:active {
+    color: #A3CCB6 !important;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #A3CCB6;
+    text-decoration: none;
+
+}
+.buttonmap:hover {
+    color: #FFFFFF;
+    background-color: #A3CCB6;
+    border-style: solid;
+    border-color: #A3CCB6;
+    text-decoration: none;
+}
+
+#headerwrap p {
+	color: #333;
+	font-size: 15px;
+    letter-spacing: 3px;
+	font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1px;
+}
+
+.contact {
+    color: #333;
+    font-size: 15px;    
+    letter-spacing: 3px;
+    text-decoration: underline;
+}
+
+.contact:hover {
+    color: #333;
+    font-weight: 700;
+}
+
+/* PORTFOLIO */
+#f {
+	background: #A3CCB6;
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+.page-header-project {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+	color: white;
+	font-size: 40px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	padding-bottom: 20px;
+
+}
+
+#f h3 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+	color: white;
+	font-size: 30px;
+	font-weight: 200;
+	letter-spacing: 1px;	
+}
+
+#f h4 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+	color: white;
+	font-size: 24px;
+	font-weight: 200;
+	letter-spacing: 1px;	
+}
+#f i {
+	font-size: 8px;
+	color: #fff;
+    padding: 3px;
+}
+
+#f p {
+    font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	color: white;
+    font-weight: 400;
+}
+
+#f img {
+	text-align: center;
+}
+
+.buttonproj {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: white;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    /*box-shadow: 2px 2px 0 0 #293540;**/
+}
+
+.buttonproj:visited {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: white;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    /*box-shadow: 2px 2px 0 0 #293540;**/
+}
+.buttonproj:hover {
+    color: #FFFFFF;
+    background-color: #EFB086;
+    border-style: solid;
+    border-color: #EFB086;
+    text-decoration: none;
+}
+
+.mtc {
+    text-align: center;
+}
+
+/* CONTACT */
+
+#cf {
+	background: #FFFFFF;
+	padding-top: 40px;
+	padding-bottom: 70px;
+}
+
+.page-header-contact {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+	color: #333;
+	font-size: 50px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	padding-bottom: 20px;
+
+}
+
+#cf p {
+	color: #333;
+    font-family: 'Lato', sans-serif;
+	font-size: 15px;
+    font-weight: 400;
+}
+
+.ion-social-linkedin-outline {
+    color: #333;
+    font-size: 30px;
+}
+
+.ion-document {
+    color: #333;
+    font-size: 30px;
+}
+
+.logocontact {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.logocontact a:hover {
+    text-decoration: none;
+}
+
+.logocontact p:hover {
+    font-size: 30px;
+}
